@@ -76,7 +76,7 @@ const BookSearch = ({ books, setBooks }) => {
                     <TextField
                         required
                         fullWidth
-                        label="book search"
+                        label="本のタイトルを入力"
                         name="search"
                         inputRef={keyword}
                     />
